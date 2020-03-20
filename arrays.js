@@ -47,6 +47,10 @@ var destructivelyRemoveElementFromEndOfArray = function(array){
     return array
 }
 
+var removeElementFromEndOfArray = function(array){
+  const chocolateBars3 = array.slice(0, array.length-1)
+  return chocolateBars3
+}
 // console.log(addElementToBeginningOfArray(chocolateBars, "payday"));
 
 // console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, "cars"));
@@ -61,4 +65,6 @@ var destructivelyRemoveElementFromEndOfArray = function(array){
 
 // console.log(removeElementFromBeginningOfArray(chocolateBars))
 
-console.log(destructivelyRemoveElementFromEndOfArray(chocolateBars))
+// console.log(destructivelyRemoveElementFromEndOfArray(chocolateBars))
+
+console.log(removeElementFromEndOfArray(chocolateBars))
