@@ -20,7 +20,7 @@ var destructivelyAddElementToBeginningOfArray = function (array, element){
 
 var addElementToEndOfArray = function (array,element){
  const array2 = array.push(element)
- return array 
+ return array2
 }
 
 var destructivelyAddElementToEndOfArray = function (array, element){
