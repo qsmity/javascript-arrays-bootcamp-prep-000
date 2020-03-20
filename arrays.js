@@ -32,6 +32,10 @@ var accessElementInArray = function(array, index){
   return array[index]
 }
 
+var destructivelyRemoveElementFromBeginningOfArray = function(array){
+  return array.unshift()
+}
+
 // console.log(addElementToBeginningOfArray(chocolateBars, "payday"));
 
 // console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, "cars"));
@@ -41,3 +45,5 @@ var accessElementInArray = function(array, index){
 // console.log(destructivelyAddElementToEndOfArray(chocolateBars,"recesecup"))
 
 console.log(accessElementInArray(chocolateBars, 2))
+
+console.log(destructivelyRemoveElementFromBeginningOfArray(chocolateBars))
