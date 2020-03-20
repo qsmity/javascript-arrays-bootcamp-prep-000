@@ -54,7 +54,7 @@ var removeElementFromEndOfArray = function(array){
 
 var splice = function(array){
   const chocolateBars4 = array.splice(2, 2, 7)
-  return chocolateBars4
+  return array
 }
 // console.log(addElementToBeginningOfArray(chocolateBars, "payday"));
 
