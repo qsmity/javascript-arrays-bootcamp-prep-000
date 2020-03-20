@@ -74,4 +74,4 @@ var splice = function(array){
 
 //console.log(removeElementFromEndOfArray(chocolateBars))
 
-console.log(splice(chocolateBars))
+// console.log(splice(chocolateBars))
