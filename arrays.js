@@ -51,6 +51,11 @@ var removeElementFromEndOfArray = function(array){
   const chocolateBars3 = array.slice(0, array.length-1)
   return chocolateBars3
 }
+
+var splice = function(array){
+  const chocolateBars4 = array.splice(2, 3, "munchies", 7)
+  return chocolateBars4
+}
 // console.log(addElementToBeginningOfArray(chocolateBars, "payday"));
 
 // console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, "cars"));
@@ -67,4 +72,6 @@ var removeElementFromEndOfArray = function(array){
 
 // console.log(destructivelyRemoveElementFromEndOfArray(chocolateBars))
 
-console.log(removeElementFromEndOfArray(chocolateBars))
+//console.log(removeElementFromEndOfArray(chocolateBars))
+
+console.log(splice(chocolateBars))
