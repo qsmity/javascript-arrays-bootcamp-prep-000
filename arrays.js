@@ -32,10 +32,10 @@ var accessElementInArrayj = function(array, index){
   return array[index]
 }
 
-// console.log(addElementToBeginningOfArray(chocolateBars, "payday"));
+console.log(addElementToBeginningOfArray(chocolateBars, "payday"));
 
-// console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, "cars"));
+console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, "cars"));
 
-// console.log(addElementToEndOfArray(chocolateBars,"heathbar"))
+console.log(addElementToEndOfArray(chocolateBars,"heathbar"))
 
-// console.log(destructivelyAddElementToEndOfArray(chocolateBars,"recesecup"))
+console.log(destructivelyAddElementToEndOfArray(chocolateBars,"recesecup"))
