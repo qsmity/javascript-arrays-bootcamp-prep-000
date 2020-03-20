@@ -43,7 +43,7 @@ var removeElementFromBeginningOfArray = function(array){
 }
 
 var destructivelyRemoveElementFromEndOfArray = function(array){
-    array.pop
+    array.pop()
     return array
 }
 
