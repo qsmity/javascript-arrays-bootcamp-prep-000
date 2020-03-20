@@ -53,3 +53,5 @@ var removeElementFromBeginningOfArray = function(array){
 // console.log(accessElementInArray(chocolateBars, 2))
 
 // console.log(destructivelyRemoveElementFromBeginningOfArray(chocolateBars))
+
+console.log(removeElementFromBeginningOfArray(chocolateBars))
