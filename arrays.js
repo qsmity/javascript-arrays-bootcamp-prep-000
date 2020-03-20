@@ -52,10 +52,10 @@ var removeElementFromEndOfArray = function(array){
   return chocolateBars3
 }
 
-var splice = function(array){
-  const chocolateBars4 = array.splice(2, 2, 7)
-  return array
-}
+// var splice = function(array){
+//   const chocolateBars4 = array.splice(2, 2, 7)
+//   return array
+// }
 // console.log(addElementToBeginningOfArray(chocolateBars, "payday"));
 
 // console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, "cars"));
