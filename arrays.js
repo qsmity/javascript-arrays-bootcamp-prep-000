@@ -28,7 +28,7 @@ var destructivelyAddElementToEndOfArray = function (array, element){
   return array
 }
 
-var accessElementInArrayj = function(array, index){
+var accessElementInArray = function(array, index){
   return array[index]
 }
 
@@ -39,3 +39,5 @@ console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, "cars"));
 console.log(addElementToEndOfArray(chocolateBars,"heathbar"))
 
 console.log(destructivelyAddElementToEndOfArray(chocolateBars,"recesecup"))
+
+console.log(accessElementInArray(chocolateBars, 2))
