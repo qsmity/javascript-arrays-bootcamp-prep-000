@@ -53,7 +53,7 @@ var removeElementFromEndOfArray = function(array){
 }
 
 var splice = function(array){
-  const chocolateBars4 = array.splice(2, 3, "munchies", 7)
+  const chocolateBars4 = array.splice(2, 2, "munchies", 7)
   return chocolateBars4
 }
 // console.log(addElementToBeginningOfArray(chocolateBars, "payday"));
