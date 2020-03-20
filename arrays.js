@@ -38,7 +38,7 @@ var destructivelyRemoveElementFromBeginningOfArray = function(array){
 }
 
 var removeElementFromBeginningOfArray = function(array){
-  const chocolateBars2 = array.slice(-2)
+  const chocolateBars2 = array.slice(1)
   return chocolateBars2
 }
 
