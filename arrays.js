@@ -33,7 +33,7 @@ var accessElementInArray = function(array, index){
 }
 
 var destructivelyRemoveElementFromBeginningOfArray = function(array){
-  return array.unshift()
+  return array.shift()
 }
 
 // console.log(addElementToBeginningOfArray(chocolateBars, "payday"));
